@@ -4,39 +4,49 @@
   padding: 2rem;
   text-align: center;
 }
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+body{
+  background-color: rgb(77, 63, 90);
+  font-family: sans-serif;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+h2{
+  color: white;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+#signupForm{
+  background-color: aqua;
+  padding: 25px;
+  width: 300px;
 }
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#authForm{
+  background-color: rgb(127, 202, 129);
+  padding: 25px;
+  width: 300px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+::placeholder{
+  color: rgba(0, 0, 255, 0.413);
 }
 
-.card {
-  padding: 2em;
+#badUsername{
+  color: red;
+  font-size: 0.8em;
+  font-weight: bold;
 }
 
-.read-the-docs {
-  color: #888;
+#badPassword{
+  color: red;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+#userName{
+  text-transform: capitalize;
+}
+
+#successMessage{
+  color: white;
+}
+#notSuccessMessage{
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  background-color: red;
 }
